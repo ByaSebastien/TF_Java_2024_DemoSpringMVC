@@ -6,6 +6,8 @@
 </head>
 <body>
     <h1>User index</h1>
+    <a th:href="@{/user/login}">Login</a>
+    <a th:href="@{/user/register}">Register</a>
     <ul>
         <li th:each="user : ${users}" th:object="${user}">
             <p th:text="*{id()}"></p>

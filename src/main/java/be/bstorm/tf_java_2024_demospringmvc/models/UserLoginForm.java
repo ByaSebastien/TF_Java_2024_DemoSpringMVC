@@ -5,7 +5,7 @@ import lombok.*;
 @Getter @Setter
 @NoArgsConstructor @AllArgsConstructor
 @ToString @EqualsAndHashCode
-public class UserForm {
+public class UserLoginForm {
 
     private String username;
     private String password;
